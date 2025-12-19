@@ -1,0 +1,190 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.conteiner{
+  display: flex;
+  flex-direction: column;
+}
+
+.boxMenu{
+  align-items: center;
+  height: 35px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.boxTotal{
+  align-items: center;
+  height: 35px;
+  border: 1px solid aqua;
+  border-radius: 10px;
+}
+
+.tituloHome{
+  width: 100%;
+  height: 280px;
+  color: #ffffff;
+  background-image: url(./assets/images/Header.jpg);
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.notFound{
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.notFoundIcon{
+  font-size: 4rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.formCenter{
+  margin: 40px;
+  display: flex;
+  justify-content: center;  
+}
+
+.formulario{
+  width: 450px;
+  display: flex;
+  flex-direction: column;   
+}
+
+.error{
+  color: red;
+}
+
+.pizzas{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.cardPizzas{
+  width: 25rem;
+  margin: 10px;
+}
+
+.listaIngredientes{
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  text-align: initial;
+}
+
+.btnCarrito{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.cartPizzas{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartPagar{
+   color: white; 
+   background-color: #212529; 
+   border-radius: 5px; 
+   height: 30px;
+   width: 60px;
+}
+
+.selectPizza{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.clasePizza {
+  height: 40px;
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.clasePizza p{
+  margin: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.clasePizza img{
+  display: block;
+  height: 30px;
+}
+
+.btnMenos{
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  border-color: red;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnMas{
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  border-color: green;
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  height: 70px;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.textFooter{
+  margin-bottom: 0px;
+}
+
+.perfilUsuario{
+  text-align: center;
+}
+
+.active-link{
+  color: #0d6efd !important;
+  text-decoration: underline;
+  font-weight: 600;
+}
